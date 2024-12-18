@@ -24,7 +24,7 @@ function Header() {
   const siteName = settingData?.data?.site_name
 
   // @ts-expect-error CustomLogo is a global variable
-  const customLogo = window.CustomLogo || "/apple-touch-icon.png"
+  const customLogo = window.CustomLogo || "https://image.bmqy.net/wp-content/uploads/2018/09/logo-1.png"
 
   // @ts-expect-error CustomDesc is a global variable
   const customDesc = window.CustomDesc || t("nezha")
